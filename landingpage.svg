@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <!-- Header background -->
+  <rect width="1000" height="80" fill="#cc0000" />
+  
+  <!-- Logo and title -->
+  <text x="30" y="50" font-family="Arial" font-size="36" font-weight="bold" fill="white">MatLib25</text>
+  <text x="820" y="35" font-family="Arial" font-size="14" fill="white">Welcome, David Xiao!</text>
+  <text x="950" y="35" font-family="Arial" font-size="14" fill="white">Help</text>
+  <text x="980" y="35" font-family="Arial" font-size="14" fill="white">Log Out</text>
+  
+  <!-- Navigation bar -->
+  <rect x="0" y="80" width="1000" height="50" fill="#aa0000" />
+  <rect x="30" y="80" width="100" height="50" fill="#880000" />
+  <text x="50" y="110" font-family="Arial" font-size="16" fill="white">Home</text>
+  <rect x="140" y="80" width="120" height="50" fill="#aa0000" />
+  <text x="160" y="110" font-family="Arial" font-size="16" fill="white">Materials</text>
+  
+  <!-- Main content area -->
+  <rect x="0" y="130" width="1000" height="570" fill="white" />
+  
+  <!-- Title -->
+  <text x="30" y="170" font-family="Arial" font-size="24" font-weight="bold" fill="#000000">Materials Browser</text>
+  
+  <!-- Logo -->
+  <text x="800" y="170" font-family="Arial" font-size="18" fill="#cc0000">Northeastern University</text>
+  
+  <!-- Instructions -->
+  <text x="30" y="200" font-family="Arial" font-size="14" fill="#000000">Please select filters to browse available class materials.</text>
+  
+  <!-- Filter boxes -->
+  <text x="30" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Term</text>
+  <text x="100" y="230" font-family="Arial" font-size="12" fill="#666666">(can select multiple)</text>
+  <rect x="30" y="240" width="180" height="25" stroke="#cccccc" fill="white" />
+  <text x="40" y="257" font-family="Arial" font-size="12" fill="#000000">Spring A 2025</text>
+  <text x="200" y="257" font-family="Arial" font-size="12" fill="#000000">▼</text>
+  
+  <text x="240" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">College</text>
+  <text x="310" y="230" font-family="Arial" font-size="12" fill="#666666">(can select multiple)</text>
+  <rect x="240" y="240" width="180" height="25" stroke="#cccccc" fill="white" />
+  <text x="250" y="257" font-family="Arial" font-size="12" fill="#000000">College of Computer Science</text>
+  <text x="410" y="257" font-family="Arial" font-size="12" fill="#000000">▼</text>
+  
+  <text x="450" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Department</text>
+  <text x="540" y="230" font-family="Arial" font-size="12" fill="#666666">(can select multiple)</text>
+  <rect x="450" y="240" width="180" height="25" stroke="#cccccc" fill="white" />
+  <text x="460" y="257" font-family="Arial" font-size="12" fill="#000000">All Departments</text>
+  <text x="620" y="257" font-family="Arial" font-size="12" fill="#000000">▼</text>
+  
+  <text x="660" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Instructor</text>
+  <text x="730" y="230" font-family="Arial" font-size="12" fill="#666666">(can select multiple)</text>
+  <rect x="660" y="240" width="180" height="25" stroke="#cccccc" fill="white" />
+  <text x="670" y="257" font-family="Arial" font-size="12" fill="#000000">All Instructors</text>
+  <text x="830" y="257" font-family="Arial" font-size="12" fill="#000000">▼</text>
+  
+  <text x="870" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Material Type</text>
+  <rect x="870" y="240" width="100" height="25" stroke="#cccccc" fill="white" />
+  <text x="880" y="257" font-family="Arial" font-size="12" fill="#000000">All Types</text>
+  <text x="960" y="257" font-family="Arial" font-size="12" fill="#000000">▼</text>
+  
+  <!-- Search box -->
+  <text x="30" y="300" font-family="Arial" font-size="14" fill="#000000">Search</text>
+  <rect x="80" y="285" width="150" height="25" stroke="#cccccc" fill="white" />
+  <rect x="240" y="285" width="60" height="25" fill="#eeeeee" stroke="#cccccc" />
+  <text x="255" y="302" font-family="Arial" font-size="12" fill="#000000">Go</text>
+  <rect x="310" y="285" width="60" height="25" fill="#eeeeee" stroke="#cccccc" />
+  <text x="320" y="302" font-family="Arial" font-size="12" fill="#000000">Reset</text>
+  <text x="380" y="302" font-family="Arial" font-size="12" fill="#000000">(Total 5437)</text>
+  <text x="480" y="302" font-family="Arial" font-size="12" fill="#0066cc">View All</text>
+  
+  <!-- Filter button -->
+  <rect x="30" y="320" width="120" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="50" y="340" font-family="Arial" font-size="12" fill="#000000">Show Filters</text>
+  
+  <!-- Table -->
+  <rect x="30" y="360" width="940" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="40" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Course</text>
+  <text x="170" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Title</text>
+  <text x="380" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Material Type</text>
+  <text x="510" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Instructor</text>
+  <text x="650" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Date Added</text>
+  <text x="790" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Downloads</text>
+  <text x="900" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#000000">Actions</text>
+  
+  <!-- Table rows -->
+  <rect x="30" y="390" width="940" height="40" fill="white" stroke="#eeeeee" />
+  <text x="40" y="415" font-family="Arial" font-size="12" fill="#000000">CS5200</text>
+  <text x="170" y="415" font-family="Arial" font-size="12" fill="#000000">Database Management Systems</text>
+  <text x="380" y="415" font-family="Arial" font-size="12" fill="#000000">Lecture Slides</text>
+  <text x="510" y="415" font-family="Arial" font-size="12" fill="#000000">Smith, John</text>
+  <text x="650" y="415" font-family="Arial" font-size="12" fill="#000000">03/28/2025</text>
+  <text x="790" y="415" font-family="Arial" font-size="12" fill="#000000">87</text>
+  <text x="900" y="415" font-family="Arial" font-size="12" fill="#0066cc">View | Download</text>
+  
+  <rect x="30" y="430" width="940" height="40" fill="#f9f9f9" stroke="#eeeeee" />
+  <text x="40" y="455" font-family="Arial" font-size="12" fill="#000000">CS5800</text>
+  <text x="170" y="455" font-family="Arial" font-size="12" fill="#000000">Algorithms</text>
+  <text x="380" y="455" font-family="Arial" font-size="12" fill="#000000">Practice Problems</text>
+  <text x="510" y="455" font-family="Arial" font-size="12" fill="#000000">Chen, Wei</text>
+  <text x="650" y="455" font-family="Arial" font-size="12" fill="#000000">03/25/2025</text>
+  <text x="790" y="455" font-family="Arial" font-size="12" fill="#000000">142</text>
+  <text x="900" y="455" font-family="Arial" font-size="12" fill="#0066cc">View | Download</text>
+  
+  <rect x="30" y="470" width="940" height="40" fill="white" stroke="#eeeeee" />
+  <text x="40" y="495" font-family="Arial" font-size="12" fill="#000000">CS5600</text>
+  <text x="170" y="495" font-family="Arial" font-size="12" fill="#000000">Computer Systems</text>
+  <text x="380" y="495" font-family="Arial" font-size="12" fill="#000000">Lab Materials</text>
+  <text x="510" y="495" font-family="Arial" font-size="12" fill="#000000">Johnson, Lisa</text>
+  <text x="650" y="495" font-family="Arial" font-size="12" fill="#000000">03/23/2025</text>
+  <text x="790" y="495" font-family="Arial" font-size="12" fill="#000000">64</text>
+  <text x="900" y="495" font-family="Arial" font-size="12" fill="#0066cc">View | Download</text>
+  
+  <rect x="30" y="510" width="940" height="40" fill="#f9f9f9" stroke="#eeeeee" />
+  <text x="40" y="535" font-family="Arial" font-size="12" fill="#000000">CS6140</text>
+  <text x="170" y="535" font-family="Arial" font-size="12" fill="#000000">Machine Learning</text>
+  <text x="380" y="535" font-family="Arial" font-size="12" fill="#000000">Code Examples</text>
+  <text x="510" y="535" font-family="Arial" font-size="12" fill="#000000">Garcia, Maria</text>
+  <text x="650" y="535" font-family="Arial" font-size="12" fill="#000000">03/20/2025</text>
+  <text x="790" y="535" font-family="Arial" font-size="12" fill="#000000">215</text>
+  <text x="900" y="535" font-family="Arial" font-size="12" fill="#0066cc">View | Download</text>
+  
+  <rect x="30" y="550" width="940" height="40" fill="white" stroke="#eeeeee" />
+  <text x="40" y="575" font-family="Arial" font-size="12" fill="#000000">CS5010</text>
+  <text x="170" y="575" font-family="Arial" font-size="12" fill="#000000">Programming Design Paradigm</text>
+  <text x="380" y="575" font-family="Arial" font-size="12" fill="#000000">Assignment</text>
+  <text x="510" y="575" font-family="Arial" font-size="12" fill="#000000">Miller, Robert</text>
+  <text x="650" y="575" font-family="Arial" font-size="12" fill="#000000">03/18/2025</text>
+  <text x="790" y="575" font-family="Arial" font-size="12" fill="#000000">92</text>
+  <text x="900" y="575" font-family="Arial" font-size="12" fill="#0066cc">View | Download</text>
+  
+  <!-- Pagination -->
+  <rect x="30" y="600" width="80" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="45" y="620" font-family="Arial" font-size="12" fill="#000000">Previous</text>
+  
+  <rect x="115" y="600" width="30" height="30" fill="#cc0000" stroke="#cccccc" />
+  <text x="127" y="620" font-family="Arial" font-size="12" fill="white">1</text>
+  
+  <rect x="150" y="600" width="30" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="162" y="620" font-family="Arial" font-size="12" fill="#000000">2</text>
+  
+  <rect x="185" y="600" width="30" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="197" y="620" font-family="Arial" font-size="12" fill="#000000">3</text>
+  
+  <rect x="220" y="600" width="30" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="232" y="620" font-family="Arial" font-size="12" fill="#000000">4</text>
+  
+  <rect x="255" y="600" width="30" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="267" y="620" font-family="Arial" font-size="12" fill="#000000">5</text>
+  
+  <rect x="290" y="600" width="60" height="30" fill="#f5f5f5" stroke="#cccccc" />
+  <text x="305" y="620" font-family="Arial" font-size="12" fill="#000000">Next</text>
+</svg>
